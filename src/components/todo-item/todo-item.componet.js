@@ -2,7 +2,7 @@ import React from "react";
 import "./todo-item.style.css";
 export const TodoItem = ({ id, todo, isComplete }) => {
   const markComplete = (id) => {
-    fetch(`http://localhost:3000/api/todo/${id}`, {
+    fetch(`https://simple-crud-todo.herokuapp.com/api/todo/${id}`, {
       method: "PUT",
     })
       .then((result) => {
