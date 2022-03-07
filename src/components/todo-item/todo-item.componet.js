@@ -14,7 +14,7 @@ export const TodoItem = ({ id, todo, isComplete }) => {
   };
 
   const deleteTodo = (id) => {
-    fetch(`http://localhost:3000/api/todo/${id}`, {
+    fetch(`https://simple-crud-todo.herokuapp.com/api/todo/${id}`, {
       method: "DELETE",
     })
       .then((result) => {
