@@ -5,7 +5,7 @@ export const TodoList = () => {
   const [todos, setTodos] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/todo?complete=false")
+    fetch("https://simple-crud-todo.herokuapp.com/api/todo?complete=false")
       .then((result) => {
         return result.json();
       })
