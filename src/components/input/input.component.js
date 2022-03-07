@@ -4,7 +4,7 @@ export const Input = () => {
   const [inputValue, setInputValue] = useState("");
   const addTodo = () => {
   
-    fetch("http://localhost:3000/api/todo", {
+    fetch("https://simple-crud-todo.herokuapp.com/api/todo", {
       method: "POST",
       headers: {
         Accept: "application/json",
