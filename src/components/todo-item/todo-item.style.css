@@ -1,0 +1,32 @@
+.item{
+	height: 50px;
+	border-bottom:3px solid black;
+	padding:auto;
+	margin:3px;
+}
+
+.inputItem{
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 1.15rem;
+	color: black;
+	width: 300px;
+	/* text-overflow:; */
+	background-color: transparent;
+	border:none;
+	margin-left: 6px;
+}
+
+ .removeButton{
+	background-color: transparent;
+	text-transform: uppercase;
+	border:none;
+	font-size: 0.85rem;
+	margin-left: 5px;
+}
+
+/*completed section*/
+.item{
+	background-color: rgba(0,0,255,0.3);
+}
+
